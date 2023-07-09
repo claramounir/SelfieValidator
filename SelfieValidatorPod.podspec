@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SelfieValidatorPod'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = ' SelfieValidatorPod to capture selfie photo and make face detection'
 
 
