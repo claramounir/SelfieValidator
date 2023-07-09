@@ -27,6 +27,7 @@
 		B83B468B2A5B01E100CDD75F /* FaceDetectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83B46322A5AD56400CDD75F /* FaceDetectionManager.swift */; };
 		B83B468F2A5B0E6000CDD75F /* SelfieValidatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B83B463E2A5AD56400CDD75F /* SelfieValidatorViewController.xib */; };
 		B83B46902A5B0E6E00CDD75F /* TakenImageResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B83B46382A5AD56400CDD75F /* TakenImageResultViewController.xib */; };
+		B83B46922A5B16AB00CDD75F /* SelfieValidatorPod.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6F46E23A4266BC498C44D54661D9D831 /* SelfieValidatorPod.podspec */; };
 		BFDE9632FBF1B1A94F5D421A6E43DCAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D2797263705F33DBC8B9CC78ADBC14BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		ED866429F16961DE32867E8633D92326 /* SelfieValidatorPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDCF02576D43BAF37F8096FDF153A17A /* SelfieValidatorPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -440,6 +441,7 @@
 			files = (
 				B83B468F2A5B0E6000CDD75F /* SelfieValidatorViewController.xib in Resources */,
 				B83B46902A5B0E6E00CDD75F /* TakenImageResultViewController.xib in Resources */,
+				B83B46922A5B16AB00CDD75F /* SelfieValidatorPod.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

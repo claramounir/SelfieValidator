@@ -8,7 +8,8 @@
 import Foundation
 
 extension Bundle {
-    public static var selfieValidatorBundle : Bundle{
-        Bundle(for: CameraController.self)
+    public static var selfieValidatorBundle : Bundle?{
+        Bundle(url: Bundle.main.url(forResource: "SelfieValidatorPod", withExtension: "bundle")!)!
+        
     }
 }
