@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		05906581F8C8ABD6E617735F8FF6A9C0 /* Pods-SelfieValidatorPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D813759D6DB8CF8FA741A00A95370535 /* Pods-SelfieValidatorPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C44F5ECAAB7C3EBD68F85972F773253 /* SelfieValidatorPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6AC45C6B9FC5482161C8919819E883 /* SelfieValidatorPod-dummy.m */; };
-		3ED5CEB8BF1251B475D4E603B961A019 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B551A63201A0734FBAC18134B17BB3 /* ReplaceMe.swift */; };
 		5CBF9BE55CDEB7FC990836AD74A2CA3B /* Pods-SelfieValidatorPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 107BC6B3E187A8E5C84DE02EB3C5E74F /* Pods-SelfieValidatorPod_Example-dummy.m */; };
 		663FB03C8BDBB347772E737A306B7F9A /* Pods-SelfieValidatorPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC71EF833DD40D5485A9EA040A5CE0A /* Pods-SelfieValidatorPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A018A0D3E1E395A795486F475DECD3BA /* Pods-SelfieValidatorPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DE3F70B695CF0E89EDDC55C79F3D4D /* Pods-SelfieValidatorPod_Tests-dummy.m */; };
@@ -43,24 +42,37 @@
 		1A2DEE93F929E11802DF57D413E5F0F1 /* SelfieValidatorPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SelfieValidatorPod.debug.xcconfig; sourceTree = "<group>"; };
 		2758D3F241912C8E096ECAD8846F13E2 /* SelfieValidatorPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SelfieValidatorPod-prefix.pch"; sourceTree = "<group>"; };
 		2A62572C0774B524C657B5595AE7AC7E /* SelfieValidatorPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SelfieValidatorPod.modulemap; sourceTree = "<group>"; };
-		30B52472BBD402B11DB9BD530B407344 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		30B52472BBD402B11DB9BD530B407344 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3A4B63EF3ADAE8F9FE83B8C4F46BF416 /* Pods-SelfieValidatorPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SelfieValidatorPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4F9ED3D906B6DCE8B89E79C19B7C2244 /* Pods-SelfieValidatorPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SelfieValidatorPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		556287A785FD2934AAA4746EA366D500 /* SelfieValidatorPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SelfieValidatorPod-Info.plist"; sourceTree = "<group>"; };
 		5DC71EF833DD40D5485A9EA040A5CE0A /* Pods-SelfieValidatorPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SelfieValidatorPod_Tests-umbrella.h"; sourceTree = "<group>"; };
-		61B551A63201A0734FBAC18134B17BB3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SelfieValidatorPod/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		6F46E23A4266BC498C44D54661D9D831 /* SelfieValidatorPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SelfieValidatorPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		705FBCBFAC9B0B0D44F6531400A5B1E9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6F46E23A4266BC498C44D54661D9D831 /* SelfieValidatorPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SelfieValidatorPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		705FBCBFAC9B0B0D44F6531400A5B1E9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		76BD4D1D4AB566BD449741BF08D24F44 /* Pods-SelfieValidatorPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SelfieValidatorPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7701D28F93666AE2DB1FE78B10D0B638 /* Pods-SelfieValidatorPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SelfieValidatorPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		792F65A8808623125972F0F858FC019E /* Pods-SelfieValidatorPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SelfieValidatorPod_Example.modulemap"; sourceTree = "<group>"; };
 		810E5502F98040203E489B74D4026BDD /* Pods-SelfieValidatorPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SelfieValidatorPod_Tests.modulemap"; sourceTree = "<group>"; };
 		935F7A5B341F213F3F3F37BF11F98433 /* Pods-SelfieValidatorPod_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SelfieValidatorPod_Tests"; path = Pods_SelfieValidatorPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E9B6FF8C21577ECE41AD67203FB8FE0 /* Pods-SelfieValidatorPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SelfieValidatorPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B14ADB3269F42483BAC63910E7593017 /* Pods-SelfieValidatorPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SelfieValidatorPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B2DE3F70B695CF0E89EDDC55C79F3D4D /* Pods-SelfieValidatorPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SelfieValidatorPod_Tests-dummy.m"; sourceTree = "<group>"; };
+		B83B46312A5AD56400CDD75F /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		B83B46322A5AD56400CDD75F /* FaceDetectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectionManager.swift; sourceTree = "<group>"; };
+		B83B46342A5AD56400CDD75F /* Bundle+pod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+pod.swift"; sourceTree = "<group>"; };
+		B83B46352A5AD56400CDD75F /* UIViewController+identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+identifier.swift"; sourceTree = "<group>"; };
+		B83B46382A5AD56400CDD75F /* TakenImageResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TakenImageResultViewController.xib; sourceTree = "<group>"; };
+		B83B46392A5AD56400CDD75F /* TakenImageResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakenImageResultViewController.swift; sourceTree = "<group>"; };
+		B83B463A2A5AD56400CDD75F /* TakenImageResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakenImageResultViewModel.swift; sourceTree = "<group>"; };
+		B83B463B2A5AD56400CDD75F /* TakenImageResultViewContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakenImageResultViewContract.swift; sourceTree = "<group>"; };
+		B83B463C2A5AD56400CDD75F /* TakenImageResultWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakenImageResultWireFrame.swift; sourceTree = "<group>"; };
+		B83B463E2A5AD56400CDD75F /* SelfieValidatorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelfieValidatorViewController.xib; sourceTree = "<group>"; };
+		B83B463F2A5AD56400CDD75F /* SelfieValidatorContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieValidatorContract.swift; sourceTree = "<group>"; };
+		B83B46402A5AD56400CDD75F /* SelfieValidatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieValidatorViewController.swift; sourceTree = "<group>"; };
+		B83B46412A5AD56400CDD75F /* SelfieValidatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieValidatorViewModel.swift; sourceTree = "<group>"; };
+		B83B46422A5AD56400CDD75F /* SelfieValidatorWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieValidatorWireframe.swift; sourceTree = "<group>"; };
 		B97000371F7382BBAC9990D44B583E43 /* Pods-SelfieValidatorPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SelfieValidatorPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C523566A7DACBAE2B370B05DC6E530E0 /* Pods-SelfieValidatorPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SelfieValidatorPod_Tests-Info.plist"; sourceTree = "<group>"; };
 		D80FEDD6F5DB716EEB323FB04C216189 /* SelfieValidatorPod */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SelfieValidatorPod; path = SelfieValidatorPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,7 +148,7 @@
 		69A2EA25578414A6982D99842139DA94 /* SelfieValidatorPod */ = {
 			isa = PBXGroup;
 			children = (
-				61B551A63201A0734FBAC18134B17BB3 /* ReplaceMe.swift */,
+				B83B462F2A5AD56400CDD75F /* Sources */,
 				CE0CDA309B4BF9163C55F724B87C8750 /* Pod */,
 				FFE46754C3EC7930CB8199869EC23756 /* Support Files */,
 			);
@@ -151,6 +163,75 @@
 				FD4C831DC78EF9F61E4A1D740508EA61 /* Pods-SelfieValidatorPod_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B83B462F2A5AD56400CDD75F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B83B46302A5AD56400CDD75F /* Core */,
+				B83B46332A5AD56400CDD75F /* Extensions */,
+				B83B46362A5AD56400CDD75F /* Modules */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B83B46302A5AD56400CDD75F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B83B46312A5AD56400CDD75F /* CameraController.swift */,
+				B83B46322A5AD56400CDD75F /* FaceDetectionManager.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B83B46332A5AD56400CDD75F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B83B46342A5AD56400CDD75F /* Bundle+pod.swift */,
+				B83B46352A5AD56400CDD75F /* UIViewController+identifier.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B83B46362A5AD56400CDD75F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B83B46372A5AD56400CDD75F /* ImageResult */,
+				B83B463D2A5AD56400CDD75F /* SelfieModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B83B46372A5AD56400CDD75F /* ImageResult */ = {
+			isa = PBXGroup;
+			children = (
+				B83B46382A5AD56400CDD75F /* TakenImageResultViewController.xib */,
+				B83B46392A5AD56400CDD75F /* TakenImageResultViewController.swift */,
+				B83B463A2A5AD56400CDD75F /* TakenImageResultViewModel.swift */,
+				B83B463B2A5AD56400CDD75F /* TakenImageResultViewContract.swift */,
+				B83B463C2A5AD56400CDD75F /* TakenImageResultWireFrame.swift */,
+			);
+			path = ImageResult;
+			sourceTree = "<group>";
+		};
+		B83B463D2A5AD56400CDD75F /* SelfieModule */ = {
+			isa = PBXGroup;
+			children = (
+				B83B463E2A5AD56400CDD75F /* SelfieValidatorViewController.xib */,
+				B83B463F2A5AD56400CDD75F /* SelfieValidatorContract.swift */,
+				B83B46402A5AD56400CDD75F /* SelfieValidatorViewController.swift */,
+				B83B46412A5AD56400CDD75F /* SelfieValidatorViewModel.swift */,
+				B83B46422A5AD56400CDD75F /* SelfieValidatorWireframe.swift */,
+				B83B46432A5AD56400CDD75F /* SelfieValidatorContract */,
+			);
+			path = SelfieModule;
+			sourceTree = "<group>";
+		};
+		B83B46432A5AD56400CDD75F /* SelfieValidatorContract */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SelfieValidatorContract;
 			sourceTree = "<group>";
 		};
 		CE0CDA309B4BF9163C55F724B87C8750 /* Pod */ = {
@@ -367,7 +448,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ED5CEB8BF1251B475D4E603B961A019 /* ReplaceMe.swift in Sources */,
 				1C44F5ECAAB7C3EBD68F85972F773253 /* SelfieValidatorPod-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,8 +574,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
