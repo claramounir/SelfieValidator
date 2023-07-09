@@ -19,7 +19,7 @@ class TakenImageResultViewController: UIViewController {
 
     init(viewModel: TakenImageResultViewModelInput) {
         self.viewModel = viewModel
-        super.init(nibName: TakenImageResultViewController.identifier , bundle: Bundle.myPod)
+        super.init(nibName: TakenImageResultViewController.identifier , bundle: Bundle.selfieValidatorBundle)
     }
     
     required init?(coder: NSCoder) {

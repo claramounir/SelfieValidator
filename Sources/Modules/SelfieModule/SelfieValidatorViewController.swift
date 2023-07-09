@@ -23,7 +23,7 @@ class SelfieValidatorViewController: UIViewController {
 
     init(viewModel: SelfieValidatorViewModelInput) {
         self.viewModel = viewModel
-        super.init(nibName: SelfieValidatorViewController.identifier , bundle: Bundle.myPod)
+        super.init(nibName: SelfieValidatorViewController.identifier , bundle: Bundle.selfieValidatorBundle)
     }
     
     required init?(coder: NSCoder) {

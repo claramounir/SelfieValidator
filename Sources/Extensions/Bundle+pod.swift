@@ -8,7 +8,7 @@
 import Foundation
 
 extension Bundle {
-    public static var myPod : Bundle{
+    public static var selfieValidatorBundle : Bundle{
         Bundle(for: CameraController.self)
     }
 }
