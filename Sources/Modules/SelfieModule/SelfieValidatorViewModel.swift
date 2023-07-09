@@ -14,12 +14,12 @@ class SelfieValidatorViewModel {
     var wireFrame: SelfieValidatorWireFrameProtocol?
     
     func configureCameraController(for view: UIView) {
-        cameraController.prepare {(error) in
+        cameraController.prepare {[weak self] (error) in
             if let error = error {
-                print(error)
+                self?.controllerDelegate?.showToast(msg: error.errorMsg)
             }
             
-            try? self.cameraController.displayPreview(on: view)
+            try? self?.cameraController.displayPreview(on: view)
         }
     }
 }
@@ -28,12 +28,12 @@ class SelfieValidatorViewModel {
 extension SelfieValidatorViewModel: SelfieValidatorViewModelInput {
     
     func didCaptureImage() {
-        cameraController.captureImage(completion:{(image, error) in
+        cameraController.captureImage(completion:{[weak self](image, error) in
             guard let image = image else {
                 print(error ?? "Image capture error")
                 return
             }
-            self.navigateToImageView(image: image)
+            self?.navigateToImageView(image: image)
         })
     }
     

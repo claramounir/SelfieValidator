@@ -1,4 +1,4 @@
-framework module SelfieValidatorPod {
+module SelfieValidatorPod {
   umbrella header "SelfieValidatorPod-umbrella.h"
 
   export *

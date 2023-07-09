@@ -60,13 +60,13 @@ class FaceDetectionManager {
         self.drawings.forEach({ drawing in drawing.removeFromSuperlayer() })
     }
     
-    public func validateFaces(sampleBuffer: CMSampleBuffer?) -> Bool {
+    public func validateFaces(sampleBuffer: CMSampleBuffer?) -> CameraController.CameraControllerError?{
         guard let sampleBuffer = sampleBuffer else {
-            return false
+            return .unknown
         }
         // Try and get a CVImageBuffer out of the sample buffer
         guard let cvBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) else {
-            return false
+            return .unknown
         }
         
         // Get a CIImage out of the CVImageBuffer
@@ -78,13 +78,13 @@ class FaceDetectionManager {
         
         guard faces.first != nil  else {
             debugPrint("No Face Found")
-            return false
+            return .noFaceFound
         }
         
         guard faces.count == 1 else {
             debugPrint("A lot of faces are detected..! \n We need only one face")
-            return false
+            return .tooManyFaces
         }
-        return true
+        return nil
     }
 }

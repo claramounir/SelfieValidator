@@ -1,5 +1,5 @@
 PODS:
-  - SelfieValidatorPod (0.1.0)
+  - SelfieValidatorPod (0.1.4)
 
 DEPENDENCIES:
   - SelfieValidatorPod (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SelfieValidatorPod: 66ff6148da20f1fe5065ddfbdd1ca40fd7cebd32
+  SelfieValidatorPod: 167316014f505e2fac531c20a70cfaf1885e7ed1
 
-PODFILE CHECKSUM: ac24c0eabc745b2195a564791cd52c7c16582e9b
+PODFILE CHECKSUM: 50ab551653261f985373bf36ab53b41baa371482
 
 COCOAPODS: 1.12.1

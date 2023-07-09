@@ -1,4 +1,4 @@
-framework module Pods_SelfieValidatorPod_Example {
+module Pods_SelfieValidatorPod_Example {
   umbrella header "Pods-SelfieValidatorPod_Example-umbrella.h"
 
   export *

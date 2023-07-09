@@ -47,6 +47,10 @@ class SelfieValidatorViewController: UIViewController {
 // MARK: SelfieValidatorViewModelOutput
 
 extension SelfieValidatorViewController: SelfieValidatorViewModelOutput {
+    func showToast(msg: String) {
+        self.showToastMessage(msg)
+    }
+    
     func setUpUI() {
         styleCaptureButton()
     }

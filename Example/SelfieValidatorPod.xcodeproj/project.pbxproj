@@ -13,8 +13,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		78C676A0E3424FB183FD640E /* Pods_SelfieValidatorPod_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D65571FDA23C3B283868BE /* Pods_SelfieValidatorPod_Tests.framework */; };
-		889DE54ED41C89CA3908E70F /* Pods_SelfieValidatorPod_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10DD20A42C653285E6AF5CB5 /* Pods_SelfieValidatorPod_Example.framework */; };
+		75251DEBC8EC86EEA70A3D32 /* libPods-SelfieValidatorPod_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D98409A586DA3F3A69493A /* libPods-SelfieValidatorPod_Example.a */; };
+		8BA1A32F43A3A039BB18DBC7 /* libPods-SelfieValidatorPod_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EEF917D61BD7BCE911906D3 /* libPods-SelfieValidatorPod_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10DD20A42C653285E6AF5CB5 /* Pods_SelfieValidatorPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SelfieValidatorPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EEF917D61BD7BCE911906D3 /* libPods-SelfieValidatorPod_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SelfieValidatorPod_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B67FAD50F32140B23FE480 /* Pods-SelfieValidatorPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfieValidatorPod_Example.debug.xcconfig"; path = "Target Support Files/Pods-SelfieValidatorPod_Example/Pods-SelfieValidatorPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		44E3E39744A3372D2E7BAE03 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SelfieValidatorPod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfieValidatorPod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,8 +41,8 @@
 		607FACE51AFB9204008FA782 /* SelfieValidatorPod_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfieValidatorPod_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		91D65571FDA23C3B283868BE /* Pods_SelfieValidatorPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SelfieValidatorPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3C8B649B02EFDB6155879A2 /* SelfieValidatorPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SelfieValidatorPod.podspec; path = ../SelfieValidatorPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C0D98409A586DA3F3A69493A /* libPods-SelfieValidatorPod_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SelfieValidatorPod_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEE427E12340D351361E128 /* Pods-SelfieValidatorPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfieValidatorPod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SelfieValidatorPod_Tests/Pods-SelfieValidatorPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D9F75AE88C57F2657F06FCBC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DF80508EB7D1003543F6C225 /* Pods-SelfieValidatorPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfieValidatorPod_Example.release.xcconfig"; path = "Target Support Files/Pods-SelfieValidatorPod_Example/Pods-SelfieValidatorPod_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				889DE54ED41C89CA3908E70F /* Pods_SelfieValidatorPod_Example.framework in Frameworks */,
+				75251DEBC8EC86EEA70A3D32 /* libPods-SelfieValidatorPod_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78C676A0E3424FB183FD640E /* Pods_SelfieValidatorPod_Tests.framework in Frameworks */,
+				8BA1A32F43A3A039BB18DBC7 /* libPods-SelfieValidatorPod_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,8 +153,8 @@
 		EEF9B258698CDBC87BA8AEB3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				10DD20A42C653285E6AF5CB5 /* Pods_SelfieValidatorPod_Example.framework */,
-				91D65571FDA23C3B283868BE /* Pods_SelfieValidatorPod_Tests.framework */,
+				C0D98409A586DA3F3A69493A /* libPods-SelfieValidatorPod_Example.a */,
+				3EEF917D61BD7BCE911906D3 /* libPods-SelfieValidatorPod_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,7 +170,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				4BD30E65513287953971524B /* [CP] Embed Pods Frameworks */,
+				87B30F0369E9BADBDD53288E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -284,24 +284,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4BD30E65513287953971524B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SelfieValidatorPod_Example/Pods-SelfieValidatorPod_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SelfieValidatorPod/SelfieValidatorPod.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SelfieValidatorPod.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SelfieValidatorPod_Example/Pods-SelfieValidatorPod_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		662F217C94CDB6545B9FD5E2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -322,6 +304,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87B30F0369E9BADBDD53288E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SelfieValidatorPod_Example/Pods-SelfieValidatorPod_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/SelfieValidatorPod/SelfieValidatorPod.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SelfieValidatorPod.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SelfieValidatorPod_Example/Pods-SelfieValidatorPod_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

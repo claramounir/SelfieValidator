@@ -21,5 +21,7 @@ protocol SelfieValidatorViewModelInput {
 // MARK: - ViewModel Output
 protocol SelfieValidatorViewModelOutput: AnyObject {
     func setUpUI()
+    func showToast(msg : String)
 }
+
 

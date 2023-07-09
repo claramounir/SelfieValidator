@@ -10,7 +10,7 @@ import AVFoundation
 import UIKit
 import Vision
 
-public class CameraController: NSObject {
+ class CameraController: NSObject {
     var captureSession: AVCaptureSession?
     var frontCamera: AVCaptureDevice?
     var frontCameraInput: AVCaptureDeviceInput?
@@ -23,8 +23,8 @@ public class CameraController: NSObject {
     var sampleBuffer: CMSampleBuffer?
 }
 
-public extension CameraController {
-    func prepare(completionHandler: @escaping (Error?) -> Void) {
+ extension CameraController {
+    func prepare(completionHandler: @escaping (CameraControllerError?) -> Void) {
         DispatchQueue(label: "prepare").async {
             do {
                 self.createCaptureSession()
@@ -33,8 +33,9 @@ public extension CameraController {
                 try self.configurePhotoOutput()
                 self.setupOutput()
             }catch {
+                
                 DispatchQueue.main.async {
-                    completionHandler(error)
+                    completionHandler(error as! CameraController.CameraControllerError)
                 }
                 return
             }
@@ -110,7 +111,12 @@ public extension CameraController {
     }
     
     func captureImage(completion: @escaping (UIImage?, Error?) -> Void) {
-        guard let captureSession = captureSession, captureSession.isRunning, detectionManager.validateFaces(sampleBuffer: self.sampleBuffer) else { completion(nil, CameraControllerError.captureSessionIsMissing); return }
+        guard let captureSession = captureSession, captureSession.isRunning else { completion(nil, CameraControllerError.captureSessionIsMissing); return }
+        if let error = detectionManager.validateFaces(sampleBuffer: self.sampleBuffer){
+            completion(nil, error)
+            return 
+        }
+
         let settings = AVCapturePhotoSettings()
         self.photoOutput?.capturePhoto(with: settings, delegate: self)
         self.photoCaptureCompletionBlock = completion
@@ -144,9 +150,35 @@ extension CameraController {
         case invalidOperation
         case noCamerasAvailable
         case unknown
+        case tooManyFaces
+        case noFaceFound
     }
 }
+extension CameraController.CameraControllerError {
+    var errorMsg : String {
+        switch self{
+            
+        case .captureSessionAlreadyRunning:
+            return "somthing went wrong"
+        case .captureSessionIsMissing:
+            return "somthing went wrong"
+        case .inputsAreInvalid:
+            return "somthing went wrong"
+        case .invalidOperation:
+            return "somthing went wrong"
+        case .noCamerasAvailable:
+            return "No Camera Detected"
+        case .unknown:
+            return "somthing went wrong"
+        case .tooManyFaces:
+            return "Not Valied Too Many Faces"
+        case .noFaceFound:
+            return "No Face Found"
+        }
 
+    }
+    
+}
 extension CameraController: AVCaptureVideoDataOutputSampleBufferDelegate {
     
     public func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
