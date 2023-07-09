@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SelfieValidatorPod_Example' do
+  pod 'SelfieValidatorPod', :path => '../'
+
+  target 'SelfieValidatorPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
