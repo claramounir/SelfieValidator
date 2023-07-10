@@ -24,7 +24,7 @@ pod 'SelfieValidatorPod'
 
 ## Author
 
-claramounir, claramounir555@gmail.com
+Clara Mounir Adly.
 
 ## License
 
