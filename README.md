@@ -1,5 +1,7 @@
 # SelfieValidatorPod
 
+This pod for Valify company task, This a framework allows end developer to open camera and make user take selfie picture with spcific terms like only one face should be in camera.
+
 [![CI Status](https://img.shields.io/travis/claramounir/SelfieValidatorPod.svg?style=flat)](https://travis-ci.org/claramounir/SelfieValidatorPod)
 [![Version](https://img.shields.io/cocoapods/v/SelfieValidatorPod.svg?style=flat)](https://cocoapods.org/pods/SelfieValidatorPod)
 [![License](https://img.shields.io/cocoapods/l/SelfieValidatorPod.svg?style=flat)](https://cocoapods.org/pods/SelfieValidatorPod)
@@ -9,7 +11,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+
 
 ## Installation
 
@@ -22,7 +24,7 @@ pod 'SelfieValidatorPod'
 
 ## Author
 
-claramounir, claramounir555@gmail.com
+Clara Mounir Adly.
 
 ## License
 
